@@ -4,9 +4,9 @@ import tip.ast._
 import smtlib.Interpreter
 import smtlib.interpreters.Z3Interpreter
 import smtlib.parser.Parser
-import smtlib.parser.Commands._
-import smtlib.parser.CommandsResponses._
-import smtlib.parser.Terms._
+import smtlib.trees.Commands._
+import smtlib.trees.Terms._
+import smtlib.trees.CommandsResponses._
 import tip.util.Log
 
 object SMTSolver {
